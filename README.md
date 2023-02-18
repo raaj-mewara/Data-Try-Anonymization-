@@ -1,5 +1,5 @@
 title: Try Anonymization
-emoji: 💩
+emoji: 🤗
 colorFrom: red
 colorTo: blue
 sdk: streamlit

@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://RajanGehlot:$HF_TOKEN@huggingface.co/spaces/RajanGehlot/Data-try-anonumization main
+        run: git push --force https://RajanGehlot:$HF_TOKEN@huggingface.co/spaces/RajanGehlot/Data-try-anonumization main
